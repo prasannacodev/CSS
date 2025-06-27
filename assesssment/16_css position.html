@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css position</title>
+    <style>
+      .pol {
+        position: static;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .red {
+        position: relative;
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .das {
+        position: fixed;
+        padding: 10px;
+        top: 300px;
+        left: 200px;
+        border: 1px solid black;
+      }
+      .con {
+        position: relative;
+        border: 1px solid black;
+        padding: 10px;
+        height: 200px;
+        width: 155px;
+      }
+      .ele {
+        position: absolute;
+        padding: 10px;
+        border: 1px solid black;
+        height: auto;
+        width: auto;
+      }
+      .container {
+        height: 400px;
+        padding: 5px;
+        border: 1px solid black;
+        overflow-y: scroll;
+        z-index: 0;
+      }
+      .element {
+        position: sticky;
+        top: 0;
+        color: blue;
+        background-color: darkolivegreen;
+        border: 1px solid black;
+        padding: 5px;
+        z-index: 1;
+      }
+      .heading {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pol">
+      <h1>STATIC</h1>
+      <p>this is static</p>
+    </div>
+    <br />
+    <div class="red">
+      <h1>relative position</h1>
+      <p>this is relative</p>
+    </div>
+    <br />
+    <div class="das">
+      <h1>fixed position</h1>
+      <p>this is fixed position</p>
+    </div>
+    <br />
+    <div class="con">
+      <div class="ele">
+        <h1>absolute position</h1>
+        <p>this is absolute position</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1>sticky position</h1>
+      <p>this is sticky position</p>
+      <div class="element">
+        <h1 class="heading">sticky position</h1>
+        <p>this is sticky position</p>
+      </div>
+      <div class="element1">
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+        <p>this is sticky position</p>
+      </div>
+    </div>
+  </body>
+</html>

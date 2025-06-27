@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css background</title>
+    <style>
+      .background {
+        /* background-color:powderblue; */
+        /* background-size: cover;
+        background-position:center;
+        height:400px; */
+        background-image: url(/download.jpeg);
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-repeat: repeat;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:top left;
+        background-position:top center ;
+        background-position:top right;
+        background-position:center left ;
+        background-position:center center ;
+        background-position:center right ;
+        background-position:bottom left ;
+        background-position:bottom center;
+        background-position:bottom right;
+      }
+      .bg-auto {
+        width: 180px;
+        height: 120px;
+        background-image: url(/download.jpeg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        border: 1px solid#ccc;
+        margin: 8px;
+        display: inline-block;
+      }
+      .bg-cover {
+        width: 180px;
+        height: 120px;
+        background-image: url(/download.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid#ccc;
+        margin: 8px;
+        display: inline-block;
+      }
+      .bg-contain {
+        width: 180px;
+        height: 120px;
+        background-image: url(/download.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 1px solid #ccc;
+        margin: 8px;
+        display: inline-block;
+      }
+      .bg-px {
+        width: 180px;
+        height: 120px;
+        background-image: url(/download.jpeg);
+        background-size: 100px 60px;
+        background-repeat: no-repeat;
+        border: 1px solid #ccc;
+        margin: 8px;
+        display: inline-block;
+      }
+      .bg-multi {
+        width: 180px;
+        height: 120px;
+        background-image: url(/download\ \(1\).jpeg), url(/download.jpeg);
+        background-size: 100px 60px, contain;
+        background-repeat: no-repeat, no-repeat;
+        border: 1px solid #ccc;
+        margin: 8px;
+        display: inline-block;
+      }
+      h1{
+        color: blue;
+        background:#000 url(/download\ \(1\).jpeg) no-repeat center right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <h2>PARAGRAPH</h1>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+      <p>this is background</p>
+
+      <p>this is background</p>
+    </div>
+    <div class="bg-auto">auto</div>
+    <div class="bg-cover">cover</div>
+    <div class="bg-contain">contain</div>
+    <div class="bg-px">px</div>
+    <div class="bg-multi">multi</div>
+    <h1> this is shorthand </h1>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS pesudo-classes</title>
+    <style>
+      a:hover {
+        color: coral;
+      }
+      input:focus {
+        background-color: darkturquoise;
+      }
+      /* p::first-letter {
+        color: midnightblue;
+        font-size: 2em;
+      } */
+      p::before {
+        content: "this is for :";
+      }
+      div > p:first-child {
+        color: brown;
+      }
+      /* p:not(.special){
+        color: dodgerblue;
+      } */
+      p:nth-child(even) {
+        color: darkmagenta;
+      }
+      p::after{
+        content:": my world";
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.abilitycoding.com/">link</a>
+    <br />
+    <input type="text" placeholder="Click me and see the focus effect" />
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <p>This is first letter</p>
+    <hr />
+    <div>
+      <p>This is first letter</p>
+      <p>This is first letter</p>
+      <p>This is first letter</p>
+      <p class="special">This is first letter</p>
+      <p>This is first letter</p>
+      <p>This is first letter</p>
+      <p>This is first letter</p>
+      <p>This is first letter</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css overflow</title>
+    <style>
+      .container {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        overflow: visible;
+      }
+      .con2 {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        overflow: hidden;
+      }
+      .con3 {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        overflow: scroll;
+      }
+      .con4 {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        overflow-x: auto;
+      }
+      .con5 {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>overflow: visible</h1>
+      <p>this is text for overflow :visible</p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="con2">
+      <h1>overflow: hidden</h1>
+      <p>this is hidden text</p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="con3">
+      <h1>overflow: scroll</h1>
+      <p>this is scroll for text</p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="con4">
+      <h1>overflow: overflow:x</h1>
+      <p>this is overflow:x for text</p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="con5">
+      <h1>overflow: overflow-y</h1>
+      <p>this is overflow-y for text</p>
+    </div>
+  </body>
+</html>

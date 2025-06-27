@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css float</title>
+    <style>
+      .left {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+      }
+      .right {
+        float: right;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+      .container{
+        width:400px;
+        border:1px solid black;
+      }
+      .left1{
+        float: left;
+        width:100px;
+        height:100px;
+        background-color: crimson;
+      }
+      .right1{
+        float:right;
+        width:100px;
+        height:100px;
+        background-color: forestgreen;
+      }
+      .clearfix::after{
+            content:"";
+            display: table;
+            clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left"></div>
+    <div class="right"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container clearfix">
+      <div class="left1"></div>
+      <div class="right1"></div>
+    </div>
+  </body>
+</html>

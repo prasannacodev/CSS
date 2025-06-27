@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS combinators</title>
+    <style>
+      .container p {
+        color: forestgreen;
+      }
+      div > p{
+        color: rgb(179, 8, 8);
+      }
+      p + p {
+        color: rgb(56, 5, 145);
+      }
+      p ~ span {
+        color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>this is selector</p>
+      <p>this is selector</p>
+    </div>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <div>
+      <p>this is selector</p>
+      <span class="highlight1"><p>this is selector</p></span>
+    </div>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <div><p>this is selector</p></div>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <p>this is selector</p>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+    <span>this is for general sibling selector</span>
+  </body>
+</html>
