@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align Content</title>
+    <style>
+      .Box {
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+      }
+       .Box1 {
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+        width:100%;
+      }
+      .Parent1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        border: 2px solid black;
+        align-content: flex-start;
+      }
+      .Parent2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        border: 2px solid black;
+        align-content: flex-end;
+      }
+      .Parent3 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        border: 2px solid black;
+        align-content: center;
+      }
+      .Parent4 {
+        display: flex;
+        flex-wrap: column;
+        /* height: 200px; */
+        border: 2px solid black;
+        align-content: space-between;
+      }
+      .Parent5 {
+        display: flex;
+        flex-wrap: column;
+        height: 200px;
+        border: 2px solid black;
+        align-content: space-around;
+      }
+      .Parent6 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        border: 2px solid black;
+        align-content: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Parent1">
+      <div class="Box" style="flex: 1">Item1</div>
+      <div class="Box" style="flex: 1">Item2</div>
+      <div class="Box" style="flex: 1">Item3</div>
+    </div>
+    <br />
+    <div class="Parent2">
+      <div class="Box" style="flex: 1">Item1</div>
+      <div class="Box" style="flex: 1">Item2</div>
+      <div class="Box" style="flex: 1">Item3</div>
+    </div>
+    <br />
+    <div class="Parent3">
+      <div class="Box" style="flex: 1">Item1</div>
+      <div class="Box" style="flex: 1">Item2</div>
+      <div class="Box" style="flex: 1">Item3</div>
+    </div>
+    <br />
+    <div class="Parent4">
+      <div class="Box" style="flex: 1">Item1</div>
+      <div class="Box" style="flex: 1">Item2</div>
+      <div class="Box" style="flex: 1">Item3</div>
+    </div>
+    <br />
+    <div class="Parent5">
+      <div class="Box1" style="flex: 1">Item1</div>
+      <div class="Box1" style="flex: 1">Item2</div>
+      <div class="Box1" style="flex: 1">Item3</div>
+    </div>
+    <br />
+    <div class="Parent6">
+      <div class="Box" style="flex: 1">Item1</div>
+      <div class="Box" style="flex: 1">Item2</div>
+      <div class="Box" style="flex: 1">Item3</div>
+    </div>
+  </body>
+</html>

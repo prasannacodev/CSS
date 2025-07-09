@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Wrap</title>
+    <style>
+      .Box {
+        background-color: mediumturquoise;
+        padding: 20px;
+        margin: 10px;
+      }
+      .Parent1 {
+        display: flex;
+        flex-wrap: nowrap;
+        border: 2px solid black;
+      }
+      .Parent2 {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid black;
+      }
+      .Parent3 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Parent1">
+      <div class="Box">Item1</div>
+      <div class="Box">Item2</div>
+      <div class="Box">Item3</div>
+    </div>
+    <br />
+    <div class="Parent2">
+      <div class="Box">Item1</div>
+      <div class="Box">Item2</div>
+      <div class="Box">Item3</div>
+    </div>
+    <br />
+    <div class="Parent3">
+      <div class="Box">Item1</div>
+      <div class="Box">Item2</div>
+      <div class="Box">Item3</div>
+    </div>
+  </body>
+</html>

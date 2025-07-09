@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align Self</title>
+    <style>
+      .Box {
+        background-color: indianred;
+        padding: 20px;
+        align-self: flex-start;
+        margin: 10px;
+      }
+      .Box1 {
+        background-color: indianred;
+        padding: 20px;
+        align-self: flex-end;
+        margin: 10px;
+      }
+      .Box2 {
+        background-color: indianred;
+        padding: 20px;
+        align-self:center;
+        margin: 10px;
+      }
+      .Box3 {
+        background-color: indianred;
+        padding: 20px;
+        align-self: stretch;
+        margin: 10px;
+      }
+      .Parent1 {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        min-height:300px;
+      }
+      .Parent2 {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        min-height:300px;
+      }
+      .Parent3 {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        min-height:300px;
+      }
+      .Parent4 {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        min-height:300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Parent1">
+      <div class="Box">Item1</div>
+      <div class="Box">Item2</div>
+      <div class="Box">Item3</div>
+    </div>
+    <div class="Parent2">
+      <div class="Box1">Item1</div>
+      <div class="Box1">Item2</div>
+      <div class="Box1">Item3</div>
+    </div>
+    <div class="Parent3">
+      <div class="Box2">Item1</div>
+      <div class="Box2">Item2</div>
+      <div class="Box2">Item3</div>
+    </div>
+    <div class="Parent4">
+      <div class="Box3">Item1</div>
+      <div class="Box3">Item2</div>
+      <div class="Box3">Item3</div>
+    </div>
+  </body>
+</html>
