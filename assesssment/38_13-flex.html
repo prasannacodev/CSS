@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .Box {
+        background-color: chocolate;
+        padding: 20px;
+        margin: 10px;
+      }
+       .Parent1 {
+        display: flex;
+        border: 2px solid black;
+      }
+       .Parent2 {
+        display: flex;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Parent1">
+      <div class="Box" style="flex:1 100px;">Item1</div>
+      <div class="Box" style="flex:2 200px;">Item2</div>
+      <div class="Box" style="flex:1 150px;">Item3</div>
+    </div>
+    <br>
+    <div class="Parent2">
+      <div class="Box" style="flex:1 50px;">Item1</div>
+      <div class="Box" style="flex:2 100px;">Item2</div>
+      <div class="Box" style="flex:1 75px;">Item3</div>
+    </div>
+  </body>
+</html>

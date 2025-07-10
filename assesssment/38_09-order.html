@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        .Box{
+            background-color: cadetblue;
+            padding:20px;
+            margin:10px;
+        }
+        .Parent1{
+            display: flex;
+            border:2px solid black;
+        }
+        .Parent2{
+            display: flex;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="Parent1">
+      <div class="Box" style="order:1;">Item1</div>
+      <div class="Box" style="order:3;">Item2</div>
+      <div class="Box" style="order:-2;">Item3</div>
+    </div>
+    <br>
+    <div class="Parent2">
+      <div class="Box" style="order:4;">Item1</div>
+      <div class="Box" style="order:3;">Item2</div>
+      <div class="Box" style="order:1;">Item3</div>
+    </div>
+</body>
+</html>

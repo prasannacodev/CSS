@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Shrink</title>
+    <style>
+        .Box{
+            background-color: aqua;
+            padding:20px;
+            margin:10px;
+        }
+         .Parent1 {
+        display: flex;
+        border: 2px solid black;
+      }
+       .Parent2 {
+        display: flex;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Parent1">
+      <div class="Box" style="flex-shrink: 13; width: 250px">Item1</div>
+      <div class="Box" style="flex-shrink: 21; width: 250px">Item2</div>
+      <div class="Box" style="flex-shrink: 14; width: 250px">Item3</div>
+    </div>
+    <br>
+    <div class="Parent2">
+      <div class="Box" style="flex-shrink: 10; width: 250px">Item1</div>
+      <div class="Box" style="flex-shrink: 15; width: 250px">Item2</div>
+      <div class="Box" style="flex-shrink: 10; width: 250px">Item3</div>
+    </div>
+  </body>
+</html>
