@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Template Columns</title>
+    <style>
+        .grid1 div{
+            padding:10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid2 div{
+            padding:10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid3 div{
+            padding:10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid4 div{
+            padding:10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns:100px 100px 100px;
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns:repeat(3,100px);
+        }
+        .grid3{
+            display: grid;
+            grid-template-columns:1fr 2fr 1fr;
+        }
+        .grid4{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="grid1">
+      <div>column 1</div>
+      <div>column 2</div>
+      <div>column 3</div>
+    </div>
+    <br>
+     <div class="grid2">
+      <div>column 1</div>
+      <div>column 2</div>
+      <div>column 3</div>
+    </div>
+    <br>
+     <div class="grid3">
+      <div>column 1</div>
+      <div>column 2</div>
+      <div>column 3</div>
+    </div>
+    <br>
+     <div class="grid4">
+      <div>column 1</div>
+      <div>column 2</div>
+      <div>column 3</div>
+    </div>
+  </body>
+</html>

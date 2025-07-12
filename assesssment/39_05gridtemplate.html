@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Template</title>
+    <style>
+      .grid1{
+        display: grid;
+        grid-template:auto/1fr 2fr 1fr;
+      }
+       .grid2{
+        display: grid;
+        grid-template:repeat(2,50px)/auto;
+      }
+       .grid3{
+        display: grid;
+        grid-template:auto auto/1fr 2fr;
+      }
+       .grid4{
+        display: grid;
+        grid-template:auto/repeat(3,auto);
+      }
+      .grid1 div{
+        padding:10px;
+        background-color:#e0e0e0;
+        border:1px solid #ccc;
+      }
+       .grid2 div{
+        padding:10px;
+        background-color:#e0e0e0;
+        border:1px solid #ccc;
+      }
+       .grid3 div{
+        padding:10px;
+        background-color:#e0e0e0;
+        border:1px solid #ccc;
+      }
+       .grid4 div{
+        padding:10px;
+        background-color:#e0e0e0;
+        border:1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid1">
+      <div>size-row</div>
+      <div>size-row</div>
+      <div>size-row</div>
+    </div>
+    <br>
+    <div class="grid2">
+      <div>size-row</div>
+      <div>size-row</div>
+    </div>
+    <br>
+    <div class="grid3">
+      <div>size-row</div>
+      <div>size-row</div>
+      <div>size-row</div>
+      <div>size-row</div>
+    </div>
+    <br>
+    <div class="grid4">
+      <div>size-row</div>
+      <div>size-row</div>
+      <div>size-row</div>
+    </div>
+  </body>
+</html>

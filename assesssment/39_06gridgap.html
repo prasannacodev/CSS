@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Gap</title>
+    <style>
+        .grid1{
+            display: grid;
+            grid-template-columns: repeat(3,100px);
+            grid-gap:20px
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: repeat(2,150px);
+            grid-template-rows: repeat(2,100px);
+            grid-gap:10px
+        }.grid3{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,80px);
+            grid-gap:15px
+        }.grid4{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,120px);
+            grid-gap:8px
+        }
+        .grid1 div{
+            padding: 10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid2 div{
+            padding: 10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid3 div{
+            padding: 10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+        .grid4 div{
+            padding: 10px;
+            background-color:#e0e0e0;
+            border:1px solid #ccc;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="grid1">
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+    </div>
+    <br>
+    <div class="grid2">
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+    </div>
+    <br>
+    <div class="grid3">
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+    </div>
+    <br>
+    <div class="grid4">
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+    </div>
+  </body>
+</html>
